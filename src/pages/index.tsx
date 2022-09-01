@@ -61,7 +61,7 @@ const Home: NextPage = () => {
           {questions.data &&
             questions.data.map((question) => (
               <article
-                className="flex flex-col justify-center items-center bg-base-200 text-neutral-content gap-10 px-3 py-10 relative rounded-xl"
+                className="flex flex-col justify-center items-center bg-base-200 text-center text-neutral-content gap-10 px-3 py-10 relative rounded-xl"
                 key={question.id}
               >
                 <h2 className="text-2xl font-bold">{question.title}</h2>
